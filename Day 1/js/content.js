@@ -27,3 +27,9 @@ else if(TimeNow>=0)
 alert('Good Morning');
 else
 alert('Welcome');
+
+for(n=1; n<=10;n++)
+{
+   document.writeln("<table><tr><td>"+n*n +"</td></tr></table>")
+}
+    
