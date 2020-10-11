@@ -27,9 +27,23 @@ else if(TimeNow>=0)
 alert('Good Morning');
 else
 alert('Welcome');
-
-for(n=1; n<=10;n++)
+var countliteral;
+document.writeln("squares of 0 to 10 ");
+for( n=1; n<=10;n++)
 {
-   document.writeln("<table><tr><td>"+n*n +"</td></tr></table>")
+   
+   document.writeln("squares of "+n+ + n*n +"\n");
+  
+  
 }
+document.writeln();
+document.writeln("Cubes of 0 to 10 ");
+for( n=1; n<=10;n++)
+{
+   
+   document.writeln("Cubes of "+n+ + n*n*n);
+  
+  
+}
+
     
